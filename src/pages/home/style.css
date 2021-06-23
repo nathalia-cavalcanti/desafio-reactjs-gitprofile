@@ -1,0 +1,76 @@
+.hide {
+    display: none;
+}
+
+.mensagemErro {
+    display: block;
+    color: red;
+    font-style: italic;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.titulo {
+    color: #3B4252;
+    font-family: Lato;
+    font-size: 40px;
+    font-style: italic;
+    line-height: 50px;
+    width: 500px;
+    text-align: center;
+    margin: 0;
+}
+
+.busca {
+    display: flex;
+    align-items: center;
+}
+
+
+.inputbutton {
+    background-color: #FFFFFF;
+    border: 1px solid #3B4252;
+    border-radius: 5px;
+    height: 50px;
+    width: 385px;
+    font-style: italic;
+    padding: 0 0 0 15px;
+    color: #8190A5;
+    font-family: Lato;
+    font-size: 18px;
+}
+
+.inputbutton:focus {
+    outline: 0;
+}
+
+.buttonn {
+    display: flex;
+    background-color: #47525E;
+    border-radius: 5px;
+    width: 118px;
+    height: 50px;
+    cursor: pointer;
+    border: none;
+    padding: 0;
+    color: #ECEFF4;
+    align-items: center;
+}
+
+.buttonn:hover {
+    background-color: #32383d;
+}
+
+.buttonn p {
+    font-family: Lato;
+    font-size: 22px;
+    font-style: italic;
+    text-align: center;
+    margin: 0;
+}

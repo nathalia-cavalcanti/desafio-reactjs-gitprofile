@@ -1,0 +1,184 @@
+.hide {
+    display: none;
+}
+
+.flexDiv {
+    display: flex;
+    min-height: 100vh;
+}
+
+.sectionLeft {
+    padding: 50px 20px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 31.25%;
+    background-color: #3B4252;
+    min-width: 390px;
+}
+
+.sectionRight {
+    flex: 68.75%;
+    padding: 30px 60px;
+}
+
+.usuario {
+    margin: 20px 0;
+}
+
+.nomeUsuario {
+    color: #ECEFF4;
+    font-size: 40px;
+    font-style: italic;
+    line-height: 50px;
+    display: block;
+}
+
+.usernameUsuario {
+    color: #ECEFF4;
+    font-size: 28px;
+    font-style: italic;
+    line-height: 34px;
+    display: block;
+}
+
+.descricaoUsuario {
+    color: #8190A5;
+    font-size: 18px;
+    line-height: 28px;
+    margin-top: 20px;
+    display: block;
+}
+
+.infoUsuario {
+    display: flex;
+    justify-content: space-between;
+}
+
+.infoUsuario span {
+    display: flex;
+    color: #ECEFF4;
+    font-size: 20px;
+    font-style: italic;
+    line-height: 26px;
+    align-items: center;
+}
+
+.linksUsuario {
+    margin: 30px 0;
+}
+
+.linkUsuario {
+    display: flex;
+    align-items: center;
+    color: #ECEFF4;
+
+    font-size: 28px;
+    font-style: italic;
+    margin: 15px 0;
+    word-break: break-word;
+}
+
+.linkUsuario a {
+    text-decoration: none;
+    
+    color: #ECEFF4;
+    font-size: 28px;
+    font-style: italic;
+    line-height: 34px;
+}
+
+.linkUsuario a:visited {
+    color: #ECEFF4;
+    text-decoration: none;
+}
+
+.linkUsuario a:hover {
+    text-decoration:underline;
+}
+
+.buttonVoltar  {
+    background-color: #ECEFF4;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    width: 192px;
+    height: 50px;
+
+    color: #3B4252;
+    font-size: 18px;
+    font-style: italic;
+    text-align: center;
+}
+
+.buttonVoltar:hover {
+    background-color: #d9dce2;
+}
+
+.repositorioName {
+    margin-top: 0;
+}
+
+.repositorioName a {
+    text-decoration: none;
+    color: #3B4252;
+    font-size: 24px;
+    line-height: 34px;
+    font-style: italic;
+    line-height: 34px;
+}
+
+.repositorioName a:visited {
+    color: #3B4252;
+    text-decoration: none;
+}
+
+.repositorioName a:hover {
+    text-decoration:underline;
+}
+
+.descricaoRepositorio {
+    color: #3B4252;
+    font-size: 18px;
+    line-height: 28px;
+}
+
+.infoRepositorio {
+    color: #8190A5;
+    font-size: 20px;
+    font-style: italic;
+    line-height: 26px;
+    display: flex;
+    align-items: center;
+}
+
+.infoRepositorio ul {
+    margin: 0;
+    list-style: none;
+    padding: 0;
+}
+
+.infoRepositorio span {
+    display: flex;
+    align-items: center;
+    margin-right: 15px;
+}
+
+@media (max-width: 768px) {
+    .divzona {
+        flex-direction: column;
+    }
+    .sectionLeft, .sectionRight {
+        flex: 0;
+    }
+    .sectionLeft {
+        min-width: 0;
+    }
+}
+
+@media (max-width: 440px) {
+    .infoUsuario {
+        flex-direction: column;
+    }
+}
+
